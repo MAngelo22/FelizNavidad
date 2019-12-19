@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0CACF9"
+    tools:context=".SplashActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/ImagenAvatar"
+        android:layout_width="238dp"
+        android:layout_height="221dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/miguel"
+        app:civ_border="true"
+        app:civ_border_color="#D00404"
+        app:civ_border_width="8dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#3f51b5"
+        app:civ_shadow_radius="10" />
+
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ImagenAvatar"
+        android:layout_marginTop="20dp"
+        android:text="@string/loading"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#D00404"
+        android:fontFamily="@font/arcade"
+        />
+
+    <ImageView
+        android:id="@+id/ImagenDialogo"
+        android:layout_width="525dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/boca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+    android:id="@+id/tx1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ImagenAvatar"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="100dp"
+    android:layout_marginEnd="141dp"
+    android:text="Toca a los personajes"
+    android:textColor="#D00404"
+    android:textSize="15dp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="131dp"
+        android:layout_below="@+id/tx1"
+        android:text="para cambiar la canción"
+        android:textColor="#D00404"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImagenDonald"
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="196dp"
+        android:src="@drawable/donald_kh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImagenFondo"
+        android:layout_width="486dp"
+        android:layout_height="731dp"
+        android:layout_alignParentStart="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fondo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ImagenSonic"
+        android:layout_width="233dp"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357"
+        app:srcCompat="@drawable/sonic"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ImagenPortal"
+        android:layout_width="435dp"
+        android:layout_height="577dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/portal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ImagenMario"
+        android:layout_width="172dp"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="216dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ImagenFondo"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        app:srcCompat="@drawable/mario"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/retrogaming"
+        android:text="@string/feliz_navidad"
+        android:textColor="#FF0000"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ImagenFondo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/retrogaming"
+        android:text="@string/y_prospero_año_nuevo"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
